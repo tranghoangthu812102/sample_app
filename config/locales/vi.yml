@@ -1,0 +1,26 @@
+vi:
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+  static_pages:
+    home:
+      fore_title: "Trang chủ"
+      name: "Ứng dụng mẫu"
+      intro_1: "Đây là trang chủ của"
+      name_tutorial: "Ruby on Rails Tutorial"
+      intro_2: "ứng dụng mẫu."
+      signup: "Đăng ký ngay!"
+    help:
+      fore_title: "Hỗ trợ"
+      name_1: "Trợ giúp"
+      intro_1: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
+      name: "trang hỗ trợ Rails Tutorial"
+      intro_2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy tham khảo"
+      name_2: "Ruby on Rails Tutorial"
+      intro_3: "sách"

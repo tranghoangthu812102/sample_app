@@ -1,0 +1,20 @@
+<footer class="footer">
+  <small>
+    <%= link_to t("tutorial"), Settings.rails_home_url %>
+    <%= t ".by" %>
+    <%= link_to "Michael Hartl", Settings.author_url %>
+  </small>
+
+  <small class="language">
+    <%= link_to t(".en"), locale:"en" %>
+    <%= link_to t(".vi"), locale:"vi" %>
+  </small>
+
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.heading"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.heading"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.author_url %></li>
+    </ul>
+  </nav>
+</footer>

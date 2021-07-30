@@ -1,0 +1,13 @@
+<%= provide :title, t(".heading") %>
+<h1>
+  <%= t ".heading" %>
+</h1>
+<p>
+  <%= t ".intro_help_page" %>
+  <%= link_to t(".name"),  Settings.rails_help_url %>.
+  <%= t ".intro_book_page" %>
+  <%= link_to Settings.rails_book_url do %>
+    <em><%= t "tutorial" %></em>
+    <%= t ".book" %>.
+  <% end %>
+</p>

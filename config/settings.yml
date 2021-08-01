@@ -1,8 +1,16 @@
-link:
-  rails_home_link: "http://www.railstutorial.org/"
-  rails_help_url: "http://www.railstutorial.org/help"
-  rails_book_url: "http://www.railstutorial.org/book"
-  rails_contact_url: "https://www.railstutorial.org/contact"
-  rails_new_url: "https://news.railstutorial.org/"
-  learn_enough_url: "https://www.learnenough.com/"
-  author_url: "https://www.michaelhartl.com/"
+rails_home_link: "http://www.railstutorial.org/"
+rails_help_url: "http://www.railstutorial.org/help"
+rails_book_url: "http://www.railstutorial.org/book"
+rails_contact_url: "https://www.railstutorial.org/contact"
+rails_new_url: "https://news.railstutorial.org/"
+learn_enough_url: "https://www.learnenough.com/"
+author_url: "https://www.michaelhartl.com/"
+validation:
+  name:
+    max_length: 50
+  email:
+    max_length: 255
+    min_length: 10
+    format_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  password:
+    min_length: 6

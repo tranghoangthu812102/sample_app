@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   before_save :alter_email
 
+  PERMITTED = [:name, :email, :password, :password_confirmation].freeze
+
   validates :name, presence: true,
                     length: {maximum: Settings.validation.name.max_length}
 

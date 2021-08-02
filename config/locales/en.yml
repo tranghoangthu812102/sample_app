@@ -3,6 +3,9 @@ en:
   tutorial: "Ruby on Rails Tutorial"
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
+  success_signup: "Welcome to the Sample App!"
+  fail_signup: "Errors occurred. Please try again."
+  not_found: "Not found."
   layouts:
     header:
       login: "Login"
@@ -38,3 +41,15 @@ en:
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
+      create: "Create my account"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
+  activerecord:
+    models:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirm password"

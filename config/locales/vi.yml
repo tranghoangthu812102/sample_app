@@ -9,11 +9,21 @@ vi:
   layouts:
     header:
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Trang cá nhân"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
       by: "viết bởi"
       news: "Tin tức"
+  sessions:
+    new:
+      new_user: "Người dùng mới?"
+    create:
+      fail: "Email hoặc mật khẩu không chính xác."
   static_pages:
     home:
       heading: "Trang chủ"

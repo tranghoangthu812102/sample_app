@@ -5,6 +5,11 @@ vi:
   sample_app: "Ứng dụng mẫu"
   success_signup: "Chào mừng bạn đến với ứng dụng"
   fail_signup: "Có lỗi xảy ra. Vui lòng thử lại."
+  profile_updated: "Thông tin cá nhân đã được cập nhật."
+  fail_updated: "Thông tin cá nhân cập nhật thất bại."
+  require_login: "Vui lòng đăng nhập."
+  success_deleted: "Đã xóa"
+  fail_deleted: "Xóa thất bại."
   not_found: "Không tìm thấy."
   layouts:
     header:
@@ -48,11 +53,21 @@ vi:
       heading: "Liên hệ"
       intro: "Liên hệ ở"
       contact: "trang liên hệ."
-  user:
+  users:
+    index:
+      all_users: "Tất cả người dùng"
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
       create: "Đăng ký tài khoản"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      update_profile: "Cập nhật thông tin cá nhân"
+      change: "Thay đổi"
+      save_change: "Lưu thay đổi"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chấp nhận lựa chọn này?"
   shared:
     error_messages:
       intro: "Biểu mẫu có"
@@ -60,7 +75,8 @@ vi:
   activerecord:
     attributes:
       user:
+        one: "Người dùng"
         name: "Tên"
         email: "Địa chỉ email"
-        password: "Password"
-        password_confirmation: "Nhập lại password"
+        password: "mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"

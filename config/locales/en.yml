@@ -22,6 +22,7 @@ en:
   sessions:
     new:
       new_user: "New User?"
+      remember_me: "Remember me in this computer"
     create:
       fail: "Invalid email/password combination"
   static_pages:

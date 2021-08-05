@@ -30,6 +30,7 @@ en:
       remember_me: "Remember me in this computer"
     create:
       fail: "Invalid email/password combination"
+      required_activate_email: "Account not activated. Check your email for invitation link."
   static_pages:
     home:
       heading: "Home"
@@ -59,7 +60,9 @@ en:
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
-      create: "Create my account"
+      create_user: "Create my account"
+    create:
+      check_email: "Please check your email to activate your account."
     edit:
       title: "Edit user"
       update_profile: "Update your profile"
@@ -72,6 +75,13 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greetings: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
   activerecord:
     models:
       user:

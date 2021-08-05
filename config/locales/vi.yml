@@ -30,6 +30,7 @@ vi:
       remember_me: "Lưu đăng nhập ở máy tính này "
     create:
       fail: "Email hoặc mật khẩu không chính xác."
+      required_activate_email: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để kích hoạt tài khoản."
   static_pages:
     home:
       heading: "Trang chủ"
@@ -59,7 +60,9 @@ vi:
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
-      create: "Đăng ký tài khoản"
+      create_user: "Đăng ký tài khoản"
+    create:
+      check_email: "Hãy kiểm tra thư để kích hoạt tài khoản."
     edit:
       title: "Chỉnh sửa người dùng"
       update_profile: "Cập nhật thông tin cá nhân"
@@ -72,6 +75,13 @@ vi:
     error_messages:
       intro: "Biểu mẫu có"
       error: "lỗi"
+  user_mailer:
+    account_activation:
+      subject: "Xác thực tài khoản"
+      greetings: "Xin chào"
+      welcome: "Chào mừng bạn đến với ứng dụng! Hãy nhấn vào link bên dưới để kích hoạt tài khoản:"
+      account_activated: "Tài khoản đã được kích hoạt!"
+      invalid_activation: "Link kích hoạt không hợp lệ"
   activerecord:
     attributes:
       user:

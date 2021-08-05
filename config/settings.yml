@@ -5,6 +5,10 @@ rails_contact_url: "https://www.railstutorial.org/contact"
 rails_new_url: "https://news.railstutorial.org/"
 learn_enough_url: "https://www.learnenough.com/"
 author_url: "https://www.michaelhartl.com/"
+gravatar:
+  email: "https://gravatar.com/emails"
+  size: 80
+  user_size: 50
 validation:
   name:
     max_length: 50

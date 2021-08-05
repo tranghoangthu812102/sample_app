@@ -5,6 +5,11 @@ en:
   sample_app: "Sample App"
   success_signup: "Welcome to the Sample App!"
   fail_signup: "Errors occurred. Please try again."
+  profile_updated: "Profile updated."
+  fail_updated: "Update profile failed."
+  require_login: "Please log in."
+  success_deleted: "Deleted."
+  fail_deleted: "Delete failed."
   not_found: "Not found."
   layouts:
     header:
@@ -48,11 +53,21 @@ en:
       heading: "Contact"
       intro: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact: "contact page."
-  user:
+  users:
+    index:
+      all_users: "All users"
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      update_profile: "Update your profile"
+      change: "Change"
+      save_change: "Save changes"
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
   shared:
     error_messages:
       intro: "The form contains"
@@ -60,6 +75,7 @@ en:
   activerecord:
     models:
       user:
+        one: "User"
         name: "Name"
         email: "Email"
         password: "Password"

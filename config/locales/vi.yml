@@ -10,6 +10,8 @@ vi:
   require_login: "Vui lòng đăng nhập."
   success_deleted: "Đã xóa"
   fail_deleted: "Xóa thất bại."
+  password_expired: "Đặt lại mật khẩu đã hết hạn."
+  invalid_user: "Người dùng không hợp lệ."
   not_found: "Không tìm thấy."
   layouts:
     header:
@@ -24,12 +26,26 @@ vi:
       vi: "Tiếng Việt"
       by: "viết bởi"
       news: "Tin tức"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit: "Gửi"
+    create:
+      sent_email: "Mail đã được gửi kèm với hướng dẫn thay đổi mật khẩu"
+      email_address_not_found: "Không tìm thấy địa chỉ email"
+    edit:
+      title: "Đặt lại mật khẩu"
+      update: "Cập nhật mật khẩu"
+    update:
+      empty_password: "không được trống"
+      password_reset: "Mật khẩu đã được đặt lại."
   sessions:
     new:
       new_user: "Người dùng mới?"
-      remember_me: "Lưu đăng nhập ở máy tính này "
+      remember_me: "Nhớ đăng nhập"
+      forgot_password: "Quên mật khẩu"
     create:
-      fail: "Email hoặc mật khẩu không chính xác."
+      login_error: "Email hoặc mật khẩu không chính xác."
       required_activate_email: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để kích hoạt tài khoản."
   static_pages:
     home:
@@ -82,11 +98,16 @@ vi:
       welcome: "Chào mừng bạn đến với ứng dụng! Hãy nhấn vào link bên dưới để kích hoạt tài khoản:"
       account_activated: "Tài khoản đã được kích hoạt!"
       invalid_activation: "Link kích hoạt không hợp lệ"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      intro: "Để đặt lại mật khẩu, vui lòng nhấn vào đường link phía dưới:"
+      expire: "Đường link này sẽ hết hạn trong vòng 2 tiếng."
+      not_own_request: "Nếu bạn không yêu cầu thay đổi mật khẩu, hãy bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên như cũ."
   activerecord:
     attributes:
       user:
         one: "Người dùng"
         name: "Tên"
         email: "Địa chỉ email"
-        password: "mật khẩu"
+        password: "Mật Khẩu"
         password_confirmation: "Nhập lại mật khẩu"

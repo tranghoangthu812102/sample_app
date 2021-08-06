@@ -18,3 +18,4 @@ validation:
     format_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password:
     min_length: 6
+    expired_time: 2

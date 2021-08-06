@@ -10,6 +10,8 @@ en:
   require_login: "Please log in."
   success_deleted: "Deleted."
   fail_deleted: "Delete failed."
+  password_expired: "Password reset has been expired."
+  invalid_user: "Invalid user."
   not_found: "Not found."
   layouts:
     header:
@@ -24,12 +26,26 @@ en:
       vi: "Vietnamese"
       by: "by"
       news: "News"
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+    create:
+      sent_email: "Email sent with password reset instructions"
+      email_address_not_found: "Email address not found"
+    edit:
+      title: "Reset password"
+      update: "Update password"
+    update:
+      empty_password: "can't be empty"
+      password_reset: "Password has been reset."
   sessions:
     new:
       new_user: "New User?"
-      remember_me: "Remember me in this computer"
+      remember_me: "Remember me"
+      forgot_password: "Forgot password"
     create:
-      fail: "Invalid email/password combination"
+      login_error: "Invalid credentials."
       required_activate_email: "Account not activated. Check your email for invitation link."
   static_pages:
     home:
@@ -82,6 +98,11 @@ en:
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       account_activated: "Account activated!"
       invalid_activation: "Invalid activation link"
+    password_reset:
+      subject: "Password reset"
+      intro: "To reset your password click the link below:"
+      expire: "This link will expire in two hours."
+      not_own_request: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   activerecord:
     models:
       user:

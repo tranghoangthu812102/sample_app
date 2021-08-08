@@ -10,6 +10,8 @@ import "channels"
 require("jquery")
 import "bootstrap"
 
+require("./check_img")
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

@@ -26,6 +26,18 @@ vi:
       vi: "Tiếng Việt"
       by: "viết bởi"
       news: "Tin tức"
+  microposts:
+    micropost:
+      posted: "Đăng vào"
+      ago: "trước"
+      delete: "Xóa"
+      confirm: "Bạn đồng ý xóa chứ?"
+    create:
+      create_post: "Bài viết đã được đăng."
+      fail_post: "Đăng thất bại."
+    destroy:
+      delete_post: "Đã xóa bài đăng."
+      delete_fail: "Xóa bài đăng thất bại."
   password_resets:
     new:
       title: "Quên mật khẩu"
@@ -54,6 +66,7 @@ vi:
       intro: "Chào mừng bạn đến với"
       type_app: "sample app"
       signup: "Đăng ký"
+      feed: "Dòng thời gian"
     help:
       heading: "Hỗ trợ"
       intro_help_page: "Nhận trợ giúp về Ruby on Rails tại"
@@ -74,9 +87,11 @@ vi:
     index:
       all_users: "Tất cả người dùng"
     new:
-      signup: "Đăng ký"
+      sign_up: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
       create_user: "Đăng ký tài khoản"
+    show:
+      microposts: "Microposts"
     create:
       check_email: "Hãy kiểm tra thư để kích hoạt tài khoản."
     edit:
@@ -91,6 +106,13 @@ vi:
     error_messages:
       intro: "Biểu mẫu có"
       error: "lỗi"
+    micropost_form:
+      create_post: "Tạo bài đăng mới..."
+      post: "Đăng"
+      large_img_error: "Kích cỡ file tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
+    user_info:
+      view_profile: "Xem trang cá nhân"
+      micropost: "bài đăng"
   user_mailer:
     account_activation:
       subject: "Xác thực tài khoản"
@@ -111,3 +133,10 @@ vi:
         email: "Địa chỉ email"
         password: "Mật Khẩu"
         password_confirmation: "Nhập lại mật khẩu"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "phải ở định dạng cho phép"
+              required_size: "cần dưới 5MB"

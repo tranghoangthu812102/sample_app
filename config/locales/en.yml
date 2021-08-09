@@ -26,6 +26,18 @@ en:
       vi: "Vietnamese"
       by: "by"
       news: "News"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      confirm: "You sure?"
+    create:
+      create_post: "Post has been created."
+      fail_post: "Fail to post."
+    destroy:
+      delete_post: "Deleted post."
+      delete_fail: "Failed to delete."
   password_resets:
     new:
       title: "Forgot password"
@@ -54,6 +66,7 @@ en:
       intro: "This is the home page for the"
       type_app: "sample application"
       signup: "Sign up"
+      feed: "Micropost Feed"
     help:
       heading: "Help"
       intro_help_page: "Get help on the Ruby on Rails Tutorial at the"
@@ -74,9 +87,11 @@ en:
     index:
       all_users: "All users"
     new:
-      signup: "Sign up"
+      sign_up: "Sign up"
       intro: "Sign up page for new users."
       create_user: "Create my account"
+    show:
+      microposts: "Microposts"
     create:
       check_email: "Please check your email to activate your account."
     edit:
@@ -91,6 +106,13 @@ en:
     error_messages:
       intro: "The form contains"
       error: "error"
+    micropost_form:
+      create_post: "Compose new micropost..."
+      post: "Post"
+      large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_profile: "View my profile"
+      micropost: "micropost"
   user_mailer:
     account_activation:
       subject: "Account activation"
@@ -111,3 +133,10 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm password"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              required_size: "should be less than 5MB"

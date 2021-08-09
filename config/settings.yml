@@ -9,6 +9,7 @@ gravatar:
   email: "https://gravatar.com/emails"
   size: 80
   user_size: 50
+  post_size: 50
 validation:
   name:
     max_length: 50
@@ -19,3 +20,12 @@ validation:
   password:
     min_length: 6
     expired_time: 2
+  post:
+    max_length: 140
+    image_type: ["image/jpeg", "image/gif", "image/png"]
+    image_size: 5
+    img_type: "image/jpeg,image/gif,image/png"
+    img_resize: [500, 500]
+user:
+  admin:
+    name: "Example User"

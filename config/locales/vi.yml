@@ -13,6 +13,8 @@ vi:
   password_expired: "Đặt lại mật khẩu đã hết hạn."
   invalid_user: "Người dùng không hợp lệ."
   not_found: "Không tìm thấy."
+  following: "Đang theo dõi"
+  follower: "Người theo dõi"
   layouts:
     header:
       login: "Đăng nhập"
@@ -102,6 +104,13 @@ vi:
     user:
       delete: "Xóa"
       confirm: "Bạn chấp nhận lựa chọn này?"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view_profile: "Xem trang cá nhân"
+      microposts: "Bài đăng"
   shared:
     error_messages:
       intro: "Biểu mẫu có"
@@ -113,6 +122,9 @@ vi:
     user_info:
       view_profile: "Xem trang cá nhân"
       micropost: "bài đăng"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   user_mailer:
     account_activation:
       subject: "Xác thực tài khoản"

@@ -28,4 +28,8 @@ class ApplicationController < ActionController::Base
     flash[:danger] = t "require_login"
     redirect_to login_url
   end
+
+  def load_user
+    @user = User.find params[:id]
+  end
 end

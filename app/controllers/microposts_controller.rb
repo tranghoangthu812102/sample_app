@@ -10,7 +10,7 @@ class MicropostsController < ApplicationController
     else
       flash[:danger] = t ".fail_post"
 
-      @feed_items = User.feed(current_user.id).page params[:page]
+      @feed_items = current_user.feed.page params[:page]
       render "static_pages/home"
     end
   end

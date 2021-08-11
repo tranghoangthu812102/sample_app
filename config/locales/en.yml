@@ -13,6 +13,8 @@ en:
   password_expired: "Password reset has been expired."
   invalid_user: "Invalid user."
   not_found: "Not found."
+  following: "Following"
+  follower: "Followers"
   layouts:
     header:
       login: "Login"
@@ -102,6 +104,13 @@ en:
     user:
       delete: "Delete"
       confirm: "Are you sure?"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_profile: "View profile"
+      microposts: "Microposts"
   shared:
     error_messages:
       intro: "The form contains"
@@ -113,6 +122,9 @@ en:
     user_info:
       view_profile: "View my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   user_mailer:
     account_activation:
       subject: "Account activation"
